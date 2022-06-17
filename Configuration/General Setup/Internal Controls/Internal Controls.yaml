@@ -1,0 +1,29 @@
+---
+loanExposure:
+    exposureType: "UNLIMITED"
+assignmentConstraints: []
+allowMultipleLoans: true
+allowMultipleGroupMemberships: true
+duplicateClientFieldsConfiguration:
+    duplicateClientChecks:
+        - "DOCUMENT_ID_AND_TYPE"
+    duplicateClientConstraintAction: "ERROR"
+arrearsDaysBeforeWriteOff: 0
+maxAllowedUndoClosurePeriod: 30
+defaultClientState: "PENDING_APPROVAL"
+defaultLineOfCreditState: "APPROVED"
+groupSizeLimit:
+    groupSizeLimitType: "HARD"
+    minGroupSizeLimit: 2
+    maxGroupSizeLimit: 5
+approvalDisbursalTwoManRuleEnabled: false
+fourEyesPrincipleConfiguration:
+    activeForLoans: false
+availableDashboardSections:
+    - "CLIENTS"
+    - "CURRENT_TILLS"
+    - "FAVOURITE_VIEWS"
+    - "INDICATORS"
+    - "LATEST_ACTIVITY"
+    - "TASKS"
+    - "UPCOMING_REPAYMENTS"

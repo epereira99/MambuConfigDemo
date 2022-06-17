@@ -1,0 +1,143 @@
+rolesConfiguration:
+    - type: "CLIENT"
+      defaultRole:
+          id: "Client_Default"
+          name: "Client"
+          description: "Client to be created for Retail/Employee Branches"
+          idPattern: ""
+          canOpenAccounts: true
+          canGuarantee: true
+          useDefaultAddress: true
+          requireIdentificationDocuments: false
+      roles:
+          - id: "INT01"
+            name: "Internal Client"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: false
+            requireIdentificationDocuments: false
+          - id: "POC_BLG_Retail_01"
+            name: "POC_BLG_Retail"
+            description:
+                "Client Type to be used in the context of the POC with our Belgium\
+                \ colleagues."
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true
+            requireIdentificationDocuments: false
+          - id: "corporate"
+            name: "Corporate"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true
+            requireIdentificationDocuments: false
+          - id: "XYZ"
+            name: "Prospect"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true
+            requireIdentificationDocuments: false
+          - id: "123"
+            name: "Heavy Transactor"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: true
+            useDefaultAddress: true
+            requireIdentificationDocuments: true
+          - id: "depositor"
+            name: "Depositor"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true
+            requireIdentificationDocuments: false
+          - id: "funders"
+            name: "Funders"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: true
+            useDefaultAddress: true
+            requireIdentificationDocuments: false
+          - id: "RCV"
+            name: "Receiver"
+            idPattern: ""
+            canOpenAccounts: false
+            canGuarantee: false
+            useDefaultAddress: true
+            requireIdentificationDocuments: false
+          - id: "Student001"
+            name: "Student"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: true
+            useDefaultAddress: true
+            requireIdentificationDocuments: true
+          - id: "Studeid"
+            name: "StudentM"
+            idPattern: "StudentM"
+            canOpenAccounts: false
+            canGuarantee: false
+            useDefaultAddress: true
+            requireIdentificationDocuments: false
+    - type: "GROUP"
+      defaultRole:
+          id: "group"
+          name: "Group"
+          canOpenAccounts: true
+          canGuarantee: false
+          useDefaultAddress: true
+      roles:
+          - id: "1"
+            name: "STORE RD"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true
+          - id: "corporateGroup"
+            name: "Corporate Group"
+            idPattern: "########"
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: false
+          - id: "Internal_Client"
+            name: "Internal Client"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: false
+          - id: "jointventure"
+            name: "Joint Venture"
+            idPattern: ""
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true
+          - id: "1995"
+            name: "Mambu_Mateus_group"
+            idPattern: "@Mateus@"
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true
+          - id: "CorporateCustomer"
+            name: "Corporate Customer"
+            idPattern: ""
+            canOpenAccounts: false
+            canGuarantee: false
+            useDefaultAddress: true
+          - id: "MainAccount"
+            name: "Main Account"
+            description: "Represents a Main Account and groups Virtual Accounts"
+            idPattern: "########"
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true
+          - id: "Joint Account"
+            name: "Joing Account"
+            description: "Joint account held by two or more individuals."
+            idPattern: "@###########@"
+            canOpenAccounts: true
+            canGuarantee: false
+            useDefaultAddress: true

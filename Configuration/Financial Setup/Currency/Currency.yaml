@@ -1,0 +1,165 @@
+---
+baseCurrency:
+    code: "EUR"
+    name: "Euro"
+    symbol: "€"
+    symbolPosition: "BEFORE_NUMBER"
+foreignCurrencies:
+    - currency:
+          code: "AED"
+          name: "United Arab Emirates dirham"
+          symbol: "Dh"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2021-05-03T15:08:38+01:00"
+            rate: 1.12345
+          - startDate: "2021-05-03T15:08:49+01:00"
+            rate: 1.123456789
+          - startDate: "2021-05-03T15:30:30+01:00"
+            rate: 232123231.12321232323
+          - startDate: "2021-05-27T13:33:19+01:00"
+            rate: 1.4323
+      exchangeRates:
+          - startDate: "2021-03-31T15:37:20+01:00"
+            buyRate: 1.12
+            sellRate: 2.14
+          - startDate: "2021-10-12T13:51:15+01:00"
+            buyRate: 1
+            sellRate: 1
+          - startDate: "2021-11-09T16:08:40Z"
+            buyRate: 1
+            sellRate: 1
+    - currency:
+          code: "AOA"
+          name: "Angolan kwanza"
+          symbol: "Kz"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2021-06-30T16:13:50+01:00"
+            rate: 0.0013
+    - currency:
+          code: "ERN"
+          name: "Eritrean nakfa"
+          symbol: "Nfk"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2021-06-01T12:27:43+01:00"
+            rate: 2
+    - currency:
+          code: "GBP"
+          name: "Pound sterling"
+          symbol: "£"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2021-04-26T15:07:26+01:00"
+            rate: 1.2
+          - startDate: "2021-04-26T15:14:18+01:00"
+            rate: 1.15
+          - startDate: "2021-04-26T15:34:43+01:00"
+            rate: 0.8696
+          - startDate: "2021-04-26T15:59:10+01:00"
+            rate: 0.8772
+          - startDate: "2021-04-29T16:24:36+01:00"
+            rate: 1.5
+          - startDate: "2021-04-29T16:24:46+01:00"
+            rate: 5
+          - startDate: "2021-04-29T16:34:11+01:00"
+            rate: 2
+          - startDate: "2021-07-14T13:21:03+01:00"
+            rate: 0.85
+          - startDate: "2022-03-11T10:54:09Z"
+            rate: 0.1
+          - startDate: "2022-03-14T11:13:27Z"
+            rate: 0.9
+      exchangeRates:
+          - startDate: "2021-03-03T09:25:23Z"
+            buyRate: 1.157
+            sellRate: 1.157
+          - startDate: "2021-07-14T13:23:38+01:00"
+            buyRate: 0.85
+            sellRate: 0.85
+    - currency:
+          code: "KZT"
+          name: "Kazakhstani tenge"
+          symbol: "теңг"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2016-09-06T11:37:50+01:00"
+            rate: 1.1
+          - startDate: "2022-04-05T17:33:53+01:00"
+            rate: 1.1
+    - currency:
+          code: "PLN"
+          name: "Polish złoty"
+          symbol: "zł"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2021-04-23T14:29:09+01:00"
+            rate: 1.2
+      exchangeRates:
+          - startDate: "2020-08-27T12:16:13+01:00"
+            buyRate: 0.227
+            sellRate: 4.408
+    - currency:
+          code: "SAR"
+          name: "Saudi riyal"
+          symbol: "﷼"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2021-07-23T10:24:41+01:00"
+            rate: 4.42
+      exchangeRates:
+          - startDate: "2021-07-23T10:26:42+01:00"
+            buyRate: 4.4126
+            sellRate: 4.4214
+    - currency:
+          code: "TOP"
+          name: "TOP Points"
+          symbol: "TOP"
+          symbolPosition: "AFTER_NUMBER"
+      accountingRates:
+          - startDate: "2021-06-01T12:27:52+01:00"
+            rate: 4
+      exchangeRates:
+          - startDate: "2020-08-20T11:37:27+01:00"
+            buyRate: 10
+            sellRate: 10
+          - startDate: "2020-08-20T12:47:10+01:00"
+            buyRate: 0.000001
+            sellRate: 0.000001
+    - currency:
+          code: "USD"
+          name: "United States dollar"
+          symbol: "$"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2021-04-12T09:53:36+01:00"
+            rate: 1.2
+          - startDate: "2021-05-27T13:29:06+01:00"
+            rate: 1.543542
+          - startDate: "2021-07-14T13:19:32+01:00"
+            rate: 1.18
+          - startDate: "2022-05-11T10:02:52+01:00"
+            rate: 15
+      exchangeRates:
+          - startDate: "2020-05-21T13:41:14+01:00"
+            buyRate: 1
+            sellRate: 1.1
+          - startDate: "2021-02-02T10:53:39Z"
+            buyRate: 3.41231232
+            sellRate: 3.4256546
+          - startDate: "2021-07-14T13:23:22+01:00"
+            buyRate: 1.18
+            sellRate: 1.18
+    - currency:
+          code: "XAF"
+          name: "CFA franc BEAC"
+          symbol: "FCFA"
+          symbolPosition: "BEFORE_NUMBER"
+      accountingRates:
+          - startDate: "2021-06-01T12:28:02+01:00"
+            rate: 3
+      exchangeRates:
+          - startDate: "2021-10-12T13:52:33+01:00"
+            buyRate: 3
+            sellRate: 3
