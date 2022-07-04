@@ -1,0 +1,29 @@
+---
+nonWorkingDays:
+    - "SATURDAY"
+    - "SUNDAY"
+holidays:
+    - id: 1051156
+      name: "Test"
+      dayOfMonth: 29
+      monthOfYear: 7
+      year: 2020
+      isAnnuallyRecurring: false
+    - id: 20668964
+      name: "Test2"
+      dayOfMonth: 10
+      monthOfYear: 7
+      year: 2002
+      isAnnuallyRecurring: true
+    - id: 990333208
+      name: "Christmas"
+      dayOfMonth: 25
+      monthOfYear: 12
+      year: 2021
+      isAnnuallyRecurring: true
+    - id: 1749987317
+      name: "New Year's Day"
+      dayOfMonth: 1
+      monthOfYear: 1
+      year: 2021
+      isAnnuallyRecurring: true

@@ -1,0 +1,578 @@
+---
+defaultTransactionChannel:
+    id: "cash"
+    name: "Cash"
+    state: "ACTIVE"
+    loansConstraints:
+        usage: "UNCONSTRAINED_USAGE"
+        constraints: []
+    savingsConstraints:
+        usage: "UNCONSTRAINED_USAGE"
+        constraints: []
+    usageRights:
+        roles: []
+        allUsers: true
+transactionChannels:
+    - id: "receipt"
+      name: "Receipt"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "check"
+      name: "Check"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "bank"
+      name: "Bank"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "LIMITED_USAGE"
+          constraints:
+              - criteria: "AMOUNT"
+                filterElement: "LESS_THAN"
+                values:
+                    - "1000000.00"
+          matchFilter: "ALL"
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "hfhfhfhf"
+      name: "Test"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "11100"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "111111111111"
+      name: "P&L"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "CC_INCOME"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "testchannel"
+      name: "Test channel"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "11100"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "00000012"
+      name: "TC_Test"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10003"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "123456789101112"
+      name: "SEPA CT OUT"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "LIMITED_USAGE"
+          constraints:
+              - criteria: "AMOUNT"
+                filterElement: "MORE_THAN"
+                values:
+                    - "100.00"
+              - criteria: "TYPE"
+                filterElement: "IN"
+                values:
+                    - "DEPOSIT"
+          matchFilter: "ALL"
+      glAccountCode: "A9122210"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "1111111111111111"
+      name: "FEE ICP"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "I9451005"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "loyalty"
+      name: "LP-LoyaltyPoints"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "LIMITED_USAGE"
+          constraints:
+              - criteria: "PRODUCT"
+                filterElement: "IN"
+                values:
+                    - "ca_no_ovd_eur"
+          matchFilter: "ALL"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "money_home"
+      name: "MoneyHome"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "cash_pick_up"
+      name: "Cash pick-up"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "bank_account"
+      name: "Bank account"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "pay_cash_in_store"
+      name: "Pay cash in-store"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "debit_card"
+      name: "Debit card"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "credit_card"
+      name: "Credit card"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "bank_transfer"
+      name: "Bank transfer"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "tcSweepOutEur"
+      name: "Transaction Channel - Sweep Out EUR"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000000000EUR"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "bank45"
+      name: "International bank"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "LIMITED_USAGE"
+          constraints:
+              - criteria: "AMOUNT"
+                filterElement: "LESS_THAN"
+                values:
+                    - "1000.00"
+              - criteria: "AMOUNT"
+                filterElement: "MORE_THAN"
+                values:
+                    - "200.00"
+          matchFilter: "ALL"
+      savingsConstraints:
+          usage: "LIMITED_USAGE"
+          constraints:
+              - criteria: "TYPE"
+                filterElement: "IN"
+                values:
+                    - "DEPOSIT"
+          matchFilter: "ALL"
+      glAccountCode: "A9068000"
+      usageRights:
+          roles:
+              - "viewonlylisbon"
+          allUsers: false
+    - id: "test"
+      name: "Paypal test"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "paypal"
+      name: "PayPal"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "transferwise"
+      name: "Transferwise"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "12345456"
+      name: "Suspense TC test"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10003"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "123345346"
+      name: "PRX TEST"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "L9124501"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "1615141312111009"
+      name: "CC_TEST"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "SCT"
+      name: "SEPA-CT"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "internal"
+      name: "Internal Transfer"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "_payments_sepa_"
+      name: "SEPA"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "A9119617"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "tcSWIFTEUR"
+      name: "Transaction Channel - SWIFT EUR"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000000001EUR"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "tcSWIFTUSD"
+      name: "Transaction Channel - SWIFT USD"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000000001USD"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "tcSWIFTGBP"
+      name: "Transaction Channel - SWIFT GBP"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000000001GBP"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "tcSEPACTEUR"
+      name: "Transaction Channel - SEPA CT EUR"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000000000EUR"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "sepa-ct-in-retail"
+      name: "SEPA CT IN RETAIL"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "12345"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "mobile"
+      name: "Mobile"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "CASH-RETAIL"
+      name: "Cash-at-retail"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "11100"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "XPTO"
+      name: "XPTO"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "11100"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "tcSweepOutUsd"
+      name: "Transaction Channel - Sweep Out USD"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000000001USD"
+      usageRights:
+          roles: []
+          allUsers: false
+    - id: "tcSweepInUsd"
+      name: "Transaction Channel - Sweep In USD"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000000001USD"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "tcSweepInEur"
+      name: "Transaction Channel - Sweep In EUR"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "10000000001EUR"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "merchant_trx"
+      name: "Merchant "
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "4444"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "123456789101190"
+      name: "Income Test"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "56100000004000EUR"
+      usageRights:
+          roles: []
+          allUsers: true
+    - id: "1615141610091502"
+      name: "Test Expense"
+      state: "ACTIVE"
+      loansConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      savingsConstraints:
+          usage: "UNCONSTRAINED_USAGE"
+          constraints: []
+      glAccountCode: "61100"
+      usageRights:
+          roles: []
+          allUsers: true

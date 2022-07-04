@@ -1,0 +1,32 @@
+---
+loanRiskLevels:
+    - id: "1189959349"
+      name: "Low Risk"
+      arrearsFrom: 1
+      arrearsTo: 30
+      provisioningPercent: 10
+    - id: "1424964350"
+      name: "Platinum Clients"
+      arrearsFrom: 181
+      arrearsTo: 260
+      provisioningPercent: 100
+    - id: "164336670"
+      name: "Very High"
+      arrearsFrom: 91
+      arrearsTo: 180
+      provisioningPercent: 80
+    - id: "1887302104"
+      name: "High"
+      arrearsFrom: 61
+      arrearsTo: 90
+      provisioningPercent: 60
+    - id: "456456"
+      name: "Post_Test"
+      arrearsFrom: 1
+      arrearsTo: 100
+      provisioningPercent: 10
+    - id: "640784603"
+      name: "Medium"
+      arrearsFrom: 31
+      arrearsTo: 60
+      provisioningPercent: 25
