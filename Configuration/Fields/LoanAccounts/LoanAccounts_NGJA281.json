@@ -1,0 +1,95 @@
+{
+    "encodedKey": "8a19a587782672f4017826db8ccb0409",
+    "id": "NGJA281",
+    "accountHolderType": "CLIENT",
+    "accountHolderKey": "8a19a587782672f4017826d2864e03e0",
+    "creationDate": "2021-03-12T14:34:55Z",
+    "approvedDate": "2021-03-12T14:34:58Z",
+    "lastModifiedDate": "2022-07-04T15:55:31+01:00",
+    "activationTransactionKey": "8a19a587782672f4017826dc9e000432",
+    "lastAccountAppraisalDate": "2022-07-05T04:25:21+01:00",
+    "accountState": "ACTIVE",
+    "productTypeKey": "8a19b5b7722bb7c901722bea7ed60027",
+    "loanName": "Student Loan",
+    "loanAmount": 8000.0000000000,
+    "paymentMethod": "HORIZONTAL",
+    "assignedBranchKey": "8a19dee173b34f480173b3c35a2c7433",
+    "assignedCentreKey": "8a19dee173b34f480173b3cc8f227eba",
+    "accruedInterest": 0,
+    "interestFromArrearsAccrued": 0,
+    "lastInterestAppliedDate": "2021-03-12T14:39:51Z",
+    "accruedPenalty": 0,
+    "allowOffset": false,
+    "arrearsTolerancePeriod": 4,
+    "accountArrearsSettings": {
+        "encodedKey": "8a19a587782672f4017826dc9b2b0420",
+        "toleranceCalculationMethod": "ARREARS_TOLERANCE_PERIOD",
+        "dateCalculationMethod": "ACCOUNT_FIRST_WENT_TO_ARREARS",
+        "nonWorkingDaysMethod": "EXCLUDED",
+        "tolerancePeriod": 4
+    },
+    "latePaymentsRecalculationMethod": "OVERDUE_INSTALLMENTS_INCREASE",
+    "balances": {
+        "redrawBalance": 0,
+        "principalDue": 0,
+        "principalPaid": 666.6700000000,
+        "principalBalance": 7333.3300000000,
+        "interestDue": 0,
+        "interestPaid": 433.3300000000,
+        "interestBalance": 4366.6700000000,
+        "interestFromArrearsBalance": 0,
+        "interestFromArrearsDue": 0,
+        "interestFromArrearsPaid": 0,
+        "feesDue": 0,
+        "feesPaid": 0,
+        "feesBalance": 20.0000000000,
+        "penaltyDue": 0,
+        "penaltyPaid": 0,
+        "penaltyBalance": 0,
+        "holdBalance": 0
+    },
+    "disbursementDetails": {
+        "encodedKey": "8a19a587782672f4017826db8ccb040a",
+        "expectedDisbursementDate": "2021-03-12T14:39:51Z",
+        "disbursementDate": "2021-03-12T14:39:51Z",
+        "firstRepaymentDate": "2022-04-01T00:00:00+01:00",
+        "transactionDetails": {
+            "encodedKey": "8a19a587782672f4017826dc9b2b041f",
+            "transactionChannelKey": "8a19427b71ede3ca0171f4b5db321211",
+            "internalTransfer": false
+        },
+        "fees": []
+    },
+    "prepaymentSettings": {},
+    "penaltySettings": {
+        "loanPenaltyCalculationMethod": "NONE"
+    },
+    "scheduleSettings": {
+        "hasCustomSchedule": false,
+        "defaultFirstRepaymentDueDateOffset": 30,
+        "principalRepaymentInterval": 1,
+        "gracePeriod": 0,
+        "gracePeriodType": "NONE",
+        "repaymentInstallments": 12,
+        "repaymentPeriodCount": 1,
+        "scheduleDueDatesMethod": "INTERVAL",
+        "periodicPayment": 0,
+        "repaymentPeriodUnit": "YEARS",
+        "repaymentScheduleMethod": "FIXED"
+    },
+    "interestSettings": {
+        "interestRateSource": "FIXED_INTEREST_RATE",
+        "accrueInterestAfterMaturity": false,
+        "interestApplicationMethod": "AFTER_DISBURSEMENT",
+        "interestBalanceCalculationMethod": "ONLY_PRINCIPAL",
+        "interestCalculationMethod": "FLAT",
+        "interestChargeFrequency": "ANNUALIZED",
+        "interestRate": 5.00000000000000000000,
+        "interestType": "SIMPLE_INTEREST",
+        "accrueLateInterest": true
+    },
+    "futurePaymentsAcceptance": "ACCEPT_OVERPAYMENTS",
+    "currency": {
+        "code": "EUR"
+    }
+}

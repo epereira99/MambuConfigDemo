@@ -1,0 +1,15 @@
+{
+    "encodedKey": "8a19a5ae78a647220178a6968ad205bf",
+    "id": "G01",
+    "creationDate": "2021-04-06T10:50:16+01:00",
+    "lastModifiedDate": "2021-04-06T10:50:16+01:00",
+    "groupName": "testeGroupMambu",
+    "assignedBranchKey": "8a19dee173b34f480173b3c35a2c7433",
+    "assignedCentreKey": "8a19dee173b34f480173b3cc8f227eba",
+    "loanCycle": 0,
+    "emailAddress": "teste@deloitte.pt",
+    "mobilePhone": "123452431",
+    "homePhone": "98654890",
+    "preferredLanguage": "ENGLISH",
+    "groupRoleKey": "8a19427b71ede3ca0171f4b5dbd21216"
+}
