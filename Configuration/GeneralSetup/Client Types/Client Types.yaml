@@ -1,4 +1,3 @@
----
 rolesConfiguration:
     - type: "CLIENT"
       defaultRole:

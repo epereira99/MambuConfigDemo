@@ -4,16 +4,12 @@ baseCurrency:
     name: "Euro"
     symbol: "€"
     symbolPosition: "BEFORE_NUMBER"
-    digitsAfterDecimal: 2
-    type: "FIAT_CURRENCY"
 foreignCurrencies:
     - currency:
           code: "AED"
           name: "United Arab Emirates dirham"
           symbol: "Dh"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-05-03T15:08:38+01:00"
             rate: 1.12345
@@ -38,8 +34,6 @@ foreignCurrencies:
           name: "Angolan kwanza"
           symbol: "Kz"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-06-30T16:13:50+01:00"
             rate: 0.0013
@@ -48,8 +42,6 @@ foreignCurrencies:
           name: "Eritrean nakfa"
           symbol: "Nfk"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-06-01T12:27:43+01:00"
             rate: 2
@@ -58,8 +50,6 @@ foreignCurrencies:
           name: "Pound sterling"
           symbol: "£"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-04-26T15:07:26+01:00"
             rate: 1.2
@@ -93,8 +83,6 @@ foreignCurrencies:
           name: "Kazakhstani tenge"
           symbol: "теңг"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2016-09-06T11:37:50+01:00"
             rate: 1.1
@@ -105,8 +93,6 @@ foreignCurrencies:
           name: "Polish złoty"
           symbol: "zł"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-04-23T14:29:09+01:00"
             rate: 1.2
@@ -119,8 +105,6 @@ foreignCurrencies:
           name: "Saudi riyal"
           symbol: "﷼"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-07-23T10:24:41+01:00"
             rate: 4.42
@@ -133,8 +117,6 @@ foreignCurrencies:
           name: "TOP Points"
           symbol: "TOP"
           symbolPosition: "AFTER_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-06-01T12:27:52+01:00"
             rate: 4
@@ -150,8 +132,6 @@ foreignCurrencies:
           name: "United States dollar"
           symbol: "$"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 2
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-04-12T09:53:36+01:00"
             rate: 1.2
@@ -176,8 +156,6 @@ foreignCurrencies:
           name: "CFA franc BEAC"
           symbol: "FCFA"
           symbolPosition: "BEFORE_NUMBER"
-          digitsAfterDecimal: 0
-          type: "FIAT_CURRENCY"
       accountingRates:
           - startDate: "2021-06-01T12:28:02+01:00"
             rate: 3
