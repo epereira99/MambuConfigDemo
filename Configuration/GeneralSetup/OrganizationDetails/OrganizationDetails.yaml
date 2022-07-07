@@ -1,0 +1,7 @@
+---
+institutionName: "Deloitte"
+phoneNumber: "+351210422500"
+emailAddress: "geral@deloitte.pt"
+localDateFormat: "dd-MM-yyyy"
+localDateTimeFormat: "dd-MM-yyyy HH:mm:ss "
+decimalSeparator: "POINT"

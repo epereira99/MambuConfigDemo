@@ -1,0 +1,16 @@
+---
+groupRoleNames:
+    - id: "1391317837"
+      name: "CFO"
+    - id: "281227669"
+      name: "Secretary"
+    - id: "328808045"
+      name: "President"
+    - id: "575773737452"
+      name: "CEO"
+    - id: "715206643"
+      name: "Treasurer"
+    - id: "abc"
+      name: "ABC"
+    - id: "soletrader"
+      name: "Sole Trader"
