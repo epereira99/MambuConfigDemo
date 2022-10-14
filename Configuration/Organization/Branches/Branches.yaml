@@ -1,0 +1,477 @@
+---
+branches:
+    - id: "01"
+      name: "Retail"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "010"
+      name: "Austria"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      holidays: []
+      customFieldValueSets:
+          - id: "_bankDetails"
+            standardCustomFieldValues:
+                - customFieldId: "ibanBankId"
+                  value: "19880"
+                - customFieldId: "ibanCountryCode"
+                  value: "AT"
+    - id: "02"
+      name: "SME"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "03"
+      name: "Employees"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      holidays: []
+    - id: "04-10-33"
+      name: "Alpha main branch"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: ""
+          line2: ""
+          city: "Riyadh"
+          region: "Riyadh Province"
+          postcode: ""
+          country: "Kingdom of Saudi Arabia"
+      holidays: []
+    - id: "12345"
+      name: "Test_Mateus"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "123456"
+      name: "Branch Rocha"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: "Avenida Joao Rocha"
+          line2: "28 A"
+          city: "Lisboa"
+          region: "Lisboa"
+          postcode: "2700"
+          country: "Portugal"
+      holidays: []
+    - id: "123PTM"
+      name: "Minho PT"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "1995"
+      name: "Mambu_Mamteus_training_branch"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "2"
+      name: "Matola City"
+      state: "ACTIVE"
+      notes:
+          "Is currently under construction to add an extra room that can be used for\
+          \ the meetings.</p>Have <b>six new computers</b> for their staff."
+      holidays: []
+    - id: "990"
+      name: "CryptoHub"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: "Av Eng Duarte Pacheco 7"
+          line2: ""
+          city: "Lisboa"
+          region: ""
+          postcode: ""
+          country: "Portugal"
+      holidays: []
+    - id: "bosnia"
+      name: "Bosnia"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      holidays: []
+    - id: "BP"
+      name: "Branch do Porto"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: ""
+          line2: ""
+          city: "Porto"
+          region: ""
+          postcode: ""
+          country: "Portugal"
+      holidays: []
+    - id: "Branch_Costa_ID"
+      name: "Branch_Costa"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "Branch_MambuTraining_ID"
+      name: "Branch_MambuTraining"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "Branch_Test_ID"
+      name: "Branch_Test"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: "Teste"
+      address:
+          line1: "Rua Boavista"
+          line2: ""
+          city: ""
+          region: ""
+          postcode: ""
+          country: ""
+      holidays: []
+      customFieldValueSets:
+          - id: "_bankDetails"
+            standardCustomFieldValues:
+                - customFieldId: "ibanBankId"
+                  value: "xxxxxxxxxxxxxxxxxxx"
+    - id: "car_loan"
+      name: "EUA"
+      state: "INACTIVE"
+      phoneNumber: "123124145"
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: "Casa Branca"
+          line2: ""
+          city: "Washington DC"
+          region: ""
+          postcode: ""
+          country: ""
+      holidays: []
+    - id: "CB2"
+      name: "United Kingdom"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      holidays: []
+      customFieldValueSets:
+          - id: "_bankDetails"
+            standardCustomFieldValues:
+                - customFieldId: "ibanBankId"
+                  value: "CIUK"
+                - customFieldId: "ibanCountryCode"
+                  value: "GB"
+    - id: "croatia"
+      name: "Croatia"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays:
+          - id: 1
+            name: "2nd New Years Day"
+            dayOfMonth: 2
+            monthOfYear: 1
+            year: 2020
+            isAnnuallyRecurring: true
+    - id: "ddded"
+      name: "Maputo Downtown"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "demoBranchId"
+      name: "Maputo Downtown"
+      state: "ACTIVE"
+      notes:
+          "Is located in the surroundings of the local market with a <i>lot of potential</i>\
+          \ to reach new clients."
+      holidays: []
+    - id: "earlystagecollections"
+      name: "Early Stage Collections"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "Fiais_Branch"
+      name: "Fiais Branch"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "germany"
+      name: "Germany"
+      state: "ACTIVE"
+      phoneNumber: "+49 89 3800 0"
+      emailAddress: "bankq_germany@mambu.de"
+      notes: ""
+      address:
+          line1: "Koeniginstrasse 28"
+          line2: ""
+          city: "Munich"
+          region: "Munich"
+          postcode: "80802"
+          country: "Germany"
+      holidays:
+          - id: 21
+            name: "New Year's Day"
+            dayOfMonth: 1
+            monthOfYear: 1
+            year: 2020
+            isAnnuallyRecurring: true
+          - id: 22
+            name: "Labour Day"
+            dayOfMonth: 1
+            monthOfYear: 5
+            year: 2020
+            isAnnuallyRecurring: true
+          - id: 23
+            name: "German Unity Day"
+            dayOfMonth: 3
+            monthOfYear: 10
+            year: 2020
+            isAnnuallyRecurring: true
+          - id: 24
+            name: "Christmas Day"
+            dayOfMonth: 25
+            monthOfYear: 12
+            year: 2020
+            isAnnuallyRecurring: true
+          - id: 25
+            name: "St. Stephen's Day"
+            dayOfMonth: 26
+            monthOfYear: 12
+            year: 2020
+            isAnnuallyRecurring: true
+          - id: 26
+            name: "Good Friday"
+            dayOfMonth: 10
+            monthOfYear: 4
+            year: 2020
+            isAnnuallyRecurring: false
+          - id: 27
+            name: "Easter Sunday"
+            dayOfMonth: 12
+            monthOfYear: 4
+            year: 2020
+            isAnnuallyRecurring: false
+          - id: 28
+            name: "Easter Monday"
+            dayOfMonth: 13
+            monthOfYear: 4
+            year: 2020
+            isAnnuallyRecurring: false
+          - id: 29
+            name: "Ascension Day"
+            dayOfMonth: 21
+            monthOfYear: 5
+            year: 2020
+            isAnnuallyRecurring: false
+          - id: 30
+            name: "Whit Monday"
+            dayOfMonth: 1
+            monthOfYear: 6
+            year: 2020
+            isAnnuallyRecurring: false
+    - id: "john1"
+      name: "Branch John Smith"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "la-agteste"
+      name: "LA-Agência Teste"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: "Rua da agência Nº1, 1ºCentro"
+          line2: ""
+          city: "Lisboa"
+          region: ""
+          postcode: ""
+          country: "Portugal"
+      holidays: []
+    - id: "MambuUserBranch"
+      name: "Branch Mambu User"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      holidays: []
+    - id: "mambu_jpg"
+      name: "mambu_jpg"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "MarisaBranch"
+      name: "Marisa Branch"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: "Avenida das Forças Armadas"
+          line2: ""
+          city: "Lisboa"
+          region: "Lisboa"
+          postcode: ""
+          country: ""
+      holidays: []
+    - id: "pms_branch_001"
+      name: "PMS_Branch"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: "Nowhere Street, N999"
+          line2: ""
+          city: "Unwritten Land"
+          region: ""
+          postcode: ""
+          country: "Outter Space"
+      holidays: []
+    - id: "pms_branch_002"
+      name: "PAS_Branch"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: ""
+          line2: ""
+          city: "Mountain T."
+          region: ""
+          postcode: ""
+          country: "Wakanda"
+      holidays: []
+    - id: "poland"
+      name: "Poland"
+      state: "ACTIVE"
+      phoneNumber: "+48 22 533 35 00"
+      emailAddress: "bankq_poland@mambu.pl"
+      notes: ""
+      address:
+          line1: "Aleja Prymasa Tysiaclecia 64"
+          line2: ""
+          city: "Warszawa"
+          region: "Mazowieckie"
+          postcode: "01-424"
+          country: "Poland"
+      holidays: []
+    - id: "portugal"
+      name: "Portugal"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address:
+          line1: "PRAÇA DA ALEGRIA"
+          line2: ""
+          city: "Lisbon"
+          region: "Lisbon"
+          postcode: "1900"
+          country: "Portugal"
+      holidays:
+          - id: 11
+            name: "dia de portugal"
+            dayOfMonth: 10
+            monthOfYear: 6
+            year: 2020
+            isAnnuallyRecurring: true
+    - id: "Post_Test01"
+      name: "The Post"
+      state: "ACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays:
+          - id: 51
+            name: "Day"
+            dayOfMonth: 1
+            monthOfYear: 1
+            year: 2099
+            isAnnuallyRecurring: false
+    - id: "rachel1"
+      name: "Branch Rachel Williams "
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []
+    - id: "tb"
+      name: "Test Branch"
+      state: "INACTIVE"
+      phoneNumber: "234567"
+      emailAddress: "test@test.com"
+      notes: "This is a test Branch"
+      address:
+          line1: "4th Street"
+          line2: "7th Block"
+          city: "New City"
+          region: "Chicago"
+          postcode: "567890"
+          country: "US"
+      holidays: []
+      customFieldValueSets:
+          - id: "_Province_Branches"
+            standardCustomFieldValues:
+                - customFieldId: "Outside_of_province_Branches"
+                  value: "TRUE"
+    - id: "TB01"
+      name: "Teste Branch"
+      state: "INACTIVE"
+      phoneNumber: ""
+      emailAddress: ""
+      notes: ""
+      address: {}
+      holidays: []

@@ -1,5 +1,5 @@
 ---
 authorizationHolds:
-    - mcc: 1
-      daysToExpiration: 10
+    - mcc: 1001
+      daysToExpiration: 8
       description: ""

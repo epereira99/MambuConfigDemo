@@ -218,9 +218,9 @@ indexRateSources:
       type: "WITHHOLDING_TAX_RATE"
       notes: ""
       indexRates:
-          - id: "100"
+          - id: "1001"
             startDate: "2021-09-30T01:00:00+01:00"
-            rate: 25
+            rate: 2
             notes: ""
           - id: "367877233"
             startDate: "2018-07-02T01:00:00+01:00"
@@ -235,7 +235,7 @@ indexRateSources:
             startDate: "2021-09-09T01:00:00+01:00"
             rate: 2
             notes: ""
-          - id: "witholdingTax1"
+          - id: "witholLdingTax1"
             startDate: "2021-09-08T01:00:00+01:00"
-            rate: 1
+            rate: 10
             notes: ""
