@@ -1,0 +1,152 @@
+{
+    "ops":[
+        {
+            "conv_id": 26632,
+            "type": "create",
+            "obj": "task",
+            "data": {
+                "JSONbody": [
+        {
+            "id": "978755533",
+            "state": "ACTIVE",
+            "firstName": "Nuno",
+            "lastName": "Tiago",
+            "preferredLanguage": "ENGLISH",
+            "notes": "",
+            "loanCycle": 1,
+            "groupLoanCycle": 0,
+            "groupKeys": [
+                
+            ],
+            "addresses": [
+                
+            ],
+            "idDocuments": [
+                
+            ]
+        },
+        {
+            "id": "621936648",
+            "state": "ACTIVE",
+            "firstName": "Joana",
+            "lastName": "Ramalho",
+            "middleName": "",
+            "homePhone": "",
+            "mobilePhone": "916278498",
+            "emailAddress": "",
+            "preferredLanguage": "ENGLISH",
+            "gender": "FEMALE",
+            "notes": "",
+            "loanCycle": 0,
+            "groupLoanCycle": 0,
+            "groupKeys": [
+                "363986523"
+            ],
+            "addresses": [
+                {
+                    "line1": "",
+                    "line2": "",
+                    "city": "",
+                    "region": "",
+                    "postcode": "",
+                    "country": "",
+                    "indexInList": 0
+                }
+            ],
+            "idDocuments": [
+                
+            ],
+            "assignedBranchId": "portugal"
+        },
+        {
+            "id": "719658456",
+            "state": "INACTIVE",
+            "firstName": "Joao",
+            "lastName": "Ramalho2",
+            "preferredLanguage": "ENGLISH",
+            "loanCycle": 0,
+            "groupLoanCycle": 0,
+            "groupKeys": [
+                
+            ],
+            "addresses": [
+                
+            ],
+            "idDocuments": [
+                
+            ],
+            "assignedBranchId": "poland"
+        },
+        {
+            "id": "558658159",
+            "state": "ACTIVE",
+            "firstName": "Luis",
+            "lastName": "RD",
+            "middleName": "Deposit",
+            "preferredLanguage": "ENGLISH",
+            "notes": "",
+            "loanCycle": 0,
+            "groupLoanCycle": 0,
+            "groupKeys": [
+                
+            ],
+            "addresses": [
+                
+            ],
+            "idDocuments": [
+                
+            ]
+        },
+        {
+            "id": "279055687",
+            "state": "INACTIVE",
+            "firstName": "Luisa",
+            "lastName": "Test",
+            "preferredLanguage": "ENGLISH",
+            "birthDate": "1992-02-02",
+            "notes": "",
+            "loanCycle": 0,
+            "groupLoanCycle": 0,
+            "groupKeys": [
+                
+            ],
+            "addresses": [
+                
+            ],
+            "idDocuments": [
+                
+            ],
+            "_marqeta": {
+                "MarqetaUserTokenID": "1234"
+            },
+            "_Custom_Fields_Clients": {
+                "Position_Clients": "Consultant"
+            },
+            "assignedBranchId": "portugal"
+        },
+        {
+            "id": "349744453",
+            "state": "ACTIVE",
+            "firstName": "luis",
+            "lastName": "Smith",
+            "emailAddress": "",
+            "preferredLanguage": "ENGLISH",
+            "birthDate": "1988-01-01",
+            "loanCycle": 0,
+            "groupLoanCycle": 0,
+            "groupKeys": [
+                
+            ],
+            "addresses": [
+                
+            ],
+            "idDocuments": [
+                
+            ],
+            "assignedBranchId": "la-agteste"
+        }
+    ]
+            }
+        }
+    ]
+}
