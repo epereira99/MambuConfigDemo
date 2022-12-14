@@ -11,7 +11,7 @@ rolesConfiguration:
           requireIdentificationDocuments: false
       roles:
           - id: "INT01"
-            name: "Internal Client"
+            name: "Internal Client But Different"
             idPattern: ""
             canOpenAccounts: true
             canGuarantee: false
